@@ -1,0 +1,43 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    /* margin: 1rem; */
+    background-color: aqua;
+    padding: 1rem;
+}
+
+h1, h2, h3 {
+    background-color: antiquewhite;
+    padding: 0 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: antiquewhite;
+    padding: 1rem;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 2rem;
+}
+
+.ingredients,
+.steps {
+    font-size: large;
+    /* background-color: aliceblue; */
+}
+
+.ingredients li,
+.steps li {
+    margin-bottom: 1rem;
+}
+
+img {
+    width:100%;
+}
